@@ -160,6 +160,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &27088337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -346,6 +349,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &188470845
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -548,6 +554,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!114 &225751168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,6 +806,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &422044789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -956,6 +968,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &616824378
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1117,6 +1132,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &729235549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1236,6 +1254,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &739107655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1569,6 +1590,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!114 &885257590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1762,6 +1786,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &990017485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1881,6 +1908,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1075924880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2000,6 +2030,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1255671540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2161,6 +2194,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1268252022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2238,6 +2274,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1285663908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2357,6 +2396,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1299086810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2625,6 +2667,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1340064194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2814,6 +2859,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!114 &1406500661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2949,6 +2997,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1460559740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3227,6 +3278,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1498686507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3346,6 +3400,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1514175413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3562,6 +3619,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1533561079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3883,6 +3943,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   desktops: 
+  MainComputer: 0
+  Earl: 1
+  Ozzy: 11
+  Journalist: 1
 --- !u!114 &1626163451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4032,6 +4096,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!114 &1703007752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4196,6 +4263,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &1918168600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4711,6 +4781,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &2098649334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4830,6 +4903,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  textFile: 0
+  desktopNumber: 0
+  CodeName: 
 --- !u!61 &2102137076
 BoxCollider2D:
   m_ObjectHideFlags: 0
