@@ -22,7 +22,7 @@ public class StartButton : MonoBehaviour {
     {
         if (!startOpened)
         {
-            GameObject SM = Instantiate(StartMenu);
+            Instantiate(StartMenu);
             startOpened = true;
         }
 
