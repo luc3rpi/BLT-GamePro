@@ -8,6 +8,7 @@ public class SingleClick : MonoBehaviour, IPointerUpHandler
 	public GameObject eM;
 	public bool up;
 	void Start(){
+		//Make sure to put "Decrpytion" tag on GameObject with the Decryption script.
 		eM = GameObject.FindWithTag ("Decryption");
 	}
 	public void OnPointerUp (PointerEventData eventData) 
