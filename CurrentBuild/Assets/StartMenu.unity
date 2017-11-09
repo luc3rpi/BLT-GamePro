@@ -573,6 +573,8 @@ MonoBehaviour:
   yPos: 0
   wid: 0.4
   hei: 0.4
+  Desktop: 0
+  DesktopSwitcher: 1
 --- !u!61 &225751169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1502,6 +1504,8 @@ MonoBehaviour:
   yPos: 0
   wid: 0.4
   hei: 0.4
+  Desktop: 3
+  DesktopSwitcher: 1
 --- !u!61 &885257587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2878,6 +2882,8 @@ MonoBehaviour:
   yPos: 0
   wid: 0.4
   hei: 0.4
+  Desktop: 2
+  DesktopSwitcher: 1
 --- !u!61 &1406500662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4115,6 +4121,8 @@ MonoBehaviour:
   yPos: 0
   wid: 0.4
   hei: 0.4
+  Desktop: 1
+  DesktopSwitcher: 1
 --- !u!61 &1703007753
 BoxCollider2D:
   m_ObjectHideFlags: 0

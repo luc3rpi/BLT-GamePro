@@ -12,24 +12,25 @@ public class DesktopSwitch : MonoBehaviour {
         colid = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        
+    private void FixedUpdate()
+    {
+
         if (!(thisNumber == 3) && GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().desktops[thisNumber] == 0)
         {
             colid.enabled = false;
             sprite.enabled = false;
         }
-        else {
+        else
+        {
             colid.enabled = true;
             sprite.enabled = true;
         }
-	}
+    }
+
     private void OnMouseDown()
     {
         GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>().position = desktopLocation;
         Destroy(transform.parent.transform.parent.GetChild(1).gameObject);
-        Destroy(transform.parent.gameObject);
+        Destroy(transform.parent.transform.parent.gameObject);
     }
 }
