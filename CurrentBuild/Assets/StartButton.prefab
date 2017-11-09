@@ -20,8 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4045611232250714}
   - component: {fileID: 212025251604275912}
-  - component: {fileID: 114660617299142098}
   - component: {fileID: 61452224392845748}
+  - component: {fileID: 114693509291652406}
+  - component: {fileID: 114575755692645166}
   m_Layer: 0
   m_Name: StartButton
   m_TagString: StartButton
@@ -67,7 +68,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!114 &114660617299142098
+--- !u!114 &114575755692645166
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,11 +76,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 1232557820481858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5089a13fc4acef449ac0194b09bb9129, type: 3}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startOpened: 0
-  StartMenu: {fileID: 1779925082411240, guid: 32408b2c539001746955d892b830bcf6, type: 2}
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114693509291652406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232557820481858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  window: {fileID: 1779925082411240, guid: 32408b2c539001746955d892b830bcf6, type: 2}
+  xPos: 0
+  yPos: 0
+  wid: 1
+  hei: 1
+  go: {fileID: 0}
+  Desktop: 0
+  DesktopSwitcher: 0
 --- !u!212 &212025251604275912
 SpriteRenderer:
   m_ObjectHideFlags: 1

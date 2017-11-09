@@ -16,7 +16,7 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
 		if(eventData.clickCount == 1){
             if ( !go)
             {
-                go = Instantiate(window, new Vector3(xPos, yPos, 0), Quaternion.identity) as GameObject;
+                go = Instantiate(window, new Vector3(xPos*40*Desktop, yPos, 0), Quaternion.identity) as GameObject;
                 go.transform.localScale = new Vector3(wid, hei, 1);
                 if (DesktopSwitcher) {
                     go.transform.GetChild(0).GetChild(Desktop).GetComponent<SpriteRenderer>().color = Color.red;

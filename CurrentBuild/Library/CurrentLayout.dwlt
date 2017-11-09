@@ -420,9 +420,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.9718995, y: -0.8067056, z: 0}
+    m_Target: {x: -1.8566227, y: -0.7595438, z: 0}
     speed: 2
-    m_Value: {x: 2.9718995, y: -0.8067056, z: 0}
+    m_Value: {x: -1.8566227, y: -0.7595438, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -449,9 +449,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.316124
+    m_Target: 10.994872
     speed: 2
-    m_Value: 16.316124
+    m_Value: 10.994872
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -530,7 +530,7 @@ MonoBehaviour:
     y: 92
     width: 556
     height: 745
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 133.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 165
@@ -595,24 +595,24 @@ MonoBehaviour:
     width: 398
     height: 745
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dce4fcff
-    m_LastClickedID: -203556
-    m_ExpandedIDs: d2cefdffa0e9fdffa2e9fdfffc65fefffe65feff401fffff461fffff1afcffff00000000f4260000f82600000627000036270000be27000038280000
+    scrollPos: {x: 0, y: 88}
+    m_SelectedIDs: 16270000
+    m_LastClickedID: 10006
+    m_ExpandedIDs: 0cddf9ff0eddf9ff323ffaff343ffaffb2aafffff0fbffff10fcffff1afcffff00000000f4260000f8260000062700009e270000be2700001c28000038280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: JournalistDesk
+      m_OriginalName: JournalistDesk
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10142
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -659,7 +659,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 0
   m_StartGridSize: 96
   m_LastFolders: []
@@ -695,24 +695,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 157}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000342600003e2600004c2600006a260000882600009c260000
+    m_ExpandedIDs: 00000000342600003e2600004c2600006a26000084260000882600009c260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DesktopSwitch
-      m_OriginalName: DesktopSwitch
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1658
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 

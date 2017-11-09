@@ -27,7 +27,7 @@ public class Desktop : MonoBehaviour {
             GetComponent<AudioSource>().PlayOneShot(Bing);
 
         }
-        else if (startButton.GetComponent<StartButton>().startOpened) {
+        else if (GameObject.FindGameObjectWithTag("StartMenu")) {
             Destroy(GameObject.FindGameObjectWithTag("StartMenu"));
             startButton.GetComponent<StartButton>().startOpened = false;
         }
