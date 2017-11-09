@@ -569,7 +569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   window: {fileID: 1710561550685800, guid: e2252011cd4f7c743a39358da615a82d, type: 2}
-  xPos: 109.8
+  xPos: 0
   yPos: 0
   wid: 0.4
   hei: 0.4
@@ -3038,7 +3038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   window: {fileID: 1710561550685800, guid: e2252011cd4f7c743a39358da615a82d, type: 2}
-  xPos: 35
+  xPos: 0
   yPos: 0
   wid: 0.4
   hei: 0.4
@@ -3258,7 +3258,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1468778239}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3272,7 +3272,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 95}
+  m_SizeDelta: {x: 492, y: 277}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468778241
 MonoBehaviour:
@@ -4278,7 +4278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   window: {fileID: 1710561550685800, guid: e2252011cd4f7c743a39358da615a82d, type: 2}
-  xPos: 71.8
+  xPos: 0
   yPos: 0
   wid: 0.4
   hei: 0.4
