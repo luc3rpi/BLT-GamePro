@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Desktop : MonoBehaviour {
-    public GameObject startButton;
+    GameObject startButton;
     public bool locked;
     public AudioClip Bing;
     // Use this for initialization
     private void Awake()
     {
         locked = false;
-       // startButton = GameObject.FindGameObjectWithTag("StartButton");
+        startButton = GameObject.FindGameObjectWithTag("StartButton");
     }
     void Start () {
 		
@@ -29,6 +29,7 @@ public class Desktop : MonoBehaviour {
         }
         else if (GameObject.FindGameObjectWithTag("StartMenu")) {
             Destroy(GameObject.FindGameObjectWithTag("StartMenu"));
+            startButton.GetComponent<StartButton>().startOpened = false;
         }
     }
 }

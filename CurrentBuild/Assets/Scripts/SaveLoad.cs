@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class SaveLoad : MonoBehaviour { //link each thing with Main file
     public List<Document> bookmarks;
-    public bool[] profiles;
+    public int[] profiles;
     public int conversation;
     public List<GameObject> encrypted;
     private savedata data;
@@ -18,8 +18,11 @@ public class SaveLoad : MonoBehaviour { //link each thing with Main file
 	}
 	
 	// Update is called once per frame
+	void Update () {
+        if (Input.GetKeyDown(KeyCode.Q)) { Save(); }
+        if (Input.GetKeyDown(KeyCode.W)) { Load(); }
+    }
     public void Save() {
-        print("Saving");
         if (!Directory.Exists(Application.dataPath + "/saves")) {
             Directory.CreateDirectory(Application.dataPath + "/saves");
         }
@@ -27,11 +30,10 @@ public class SaveLoad : MonoBehaviour { //link each thing with Main file
         profiles = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().desktops;
         bookmarks = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().fileBook;
         FileStream file = File.Create(Application.dataPath + "/saves/SaveData.dat");
-        print("Saving");
+
         CopySaveData();
         bf.Serialize(file, data);
         file.Close();
-        print("Saving2");
     }
     public void CopySaveData() {
         if(data.bookmarks.Count > 0)
@@ -69,7 +71,6 @@ public class SaveLoad : MonoBehaviour { //link each thing with Main file
             data = (savedata)bf.Deserialize(file);
             CopyLoadData();
             file.Close();
-            print("Loading");
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().desktops = profiles;
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().fileBook = bookmarks;
         }
@@ -80,7 +81,7 @@ public class SaveLoad : MonoBehaviour { //link each thing with Main file
 public class savedata
 {
     public List<Document> bookmarks = new List<Document>();
-    public bool[] profiles;
+    public int[] profiles;
     public int conversation;
     public List<GameObject> encrypted = new List<GameObject>();
 }
