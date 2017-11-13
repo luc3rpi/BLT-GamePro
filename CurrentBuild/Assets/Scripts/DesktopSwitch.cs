@@ -15,7 +15,7 @@ public class DesktopSwitch : MonoBehaviour {
     private void FixedUpdate()
     {
 
-        if (!(thisNumber == 3) && GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().desktops[thisNumber] == 0)
+        if (!(thisNumber == 3) && GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().desktops[thisNumber] == false)
         {
             colid.enabled = false;
             sprite.enabled = false;
