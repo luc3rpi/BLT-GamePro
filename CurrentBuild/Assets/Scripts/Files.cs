@@ -32,12 +32,32 @@ public class Files : MonoBehaviour {
     public bool textFile;
     public int desktopNumber;
     public string CodeName;
+    public string FileName;
+    public List<Dictionary<string, object>> DocumentsToPullFrom;
     Document doco;
 	// Use this for initialization
 	void Start () {
+        DocText = null;
         if (textFile) {
-            if (desktopNumber == 1) {
-                
+            if (desktopNumber == 2) {
+                DocumentsToPullFrom =  GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().dataOld;
+            }
+        }
+        if (desktopNumber == 2) //remove if when adding other documents
+        {
+            foreach (Dictionary<string, object> i in DocumentsToPullFrom)
+            {
+                if (i.ContainsKey("Codename"))
+                {
+                    {
+                        if ((i["Codename"].ToString() == CodeName))
+                        {
+                            DocText = (string)i["Text in Documents"];
+                            FileName = (string)i["Name of File"];
+                            break;
+                        }
+                    }
+                }
             }
         }
         cam = GameObject.FindGameObjectWithTag("MainCamera");

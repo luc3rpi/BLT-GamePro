@@ -17,8 +17,12 @@ public class Master : MonoBehaviour {
     private void Awake()
     {
         dataOld = CSVReader.Read("OldManFolders");
-     //   dataJaz = CSVReader.Read("TechGuyFolders");
-    //    dataJournalist = CSVReader.Read("JournalistFolders");
+        //   dataJaz = CSVReader.Read("TechGuyFolders");
+        //    dataJournalist = CSVReader.Read("JournalistFolders");
+        //List<string> keyList = new List<string>(this.dataOld[1].Keys);
+        //foreach (string i in keyList) {
+       //     print(i);
+     //   }
         fileBook = new List<Document>();
         desktops = new int[4];
         desktops[0] = Earl; desktops[1] = Ozzy; desktops[2] = Journalist; desktops[3] = MainComputer;
