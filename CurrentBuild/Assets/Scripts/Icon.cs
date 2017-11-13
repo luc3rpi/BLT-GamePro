@@ -35,7 +35,7 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
                         break;
 
                 }
-                go = Instantiate(window, new Vector3(xPos+1*40*location, yPos, -2), Quaternion.identity) as GameObject;
+                go = Instantiate(window, new Vector3(xPos+1*40*location, yPos, 0), Quaternion.identity) as GameObject;
                 go.transform.localScale = new Vector3(wid, hei, 1);
                 if (DesktopSwitcher) {
                     go.transform.GetChild(0).GetChild(Desktop).GetComponent<SpriteRenderer>().color = Color.red;

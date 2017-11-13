@@ -79,7 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bookmarks.cs" />
-    <Compile Include="Assets\Scripts\ButtonSave.cs" />
     <Compile Include="Assets\Scripts\ColumnManager.cs" />
     <Compile Include="Assets\Scripts\CSVReader.cs" />
     <Compile Include="Assets\Scripts\Decryption.cs" />

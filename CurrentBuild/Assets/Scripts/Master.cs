@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Master : MonoBehaviour {
     public List<Document> fileBook; //master list
-    public bool[] desktops;
-
+    public int[] desktops;
+    public int MainComputer;
+    public int Earl;
+    public int Ozzy;
+    public int Journalist;
     //public TextAsset OldManFolders;
     public List<Dictionary<string, object>> dataOld;
     public List<Dictionary<string, object>> dataJournalist;
@@ -17,8 +20,8 @@ public class Master : MonoBehaviour {
      //   dataJaz = CSVReader.Read("TechGuyFolders");
     //    dataJournalist = CSVReader.Read("JournalistFolders");
         fileBook = new List<Document>();
-        desktops = new bool[4];
-        desktops[0] = true; desktops[1] = false; desktops[2] = false; desktops[3] = false;
+        desktops = new int[4];
+        desktops[0] = Earl; desktops[1] = Ozzy; desktops[2] = Journalist; desktops[3] = MainComputer;
     }
     void Start () {
 
