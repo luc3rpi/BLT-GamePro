@@ -30,14 +30,16 @@ public class Files : MonoBehaviour {
     public bool uploadMode;
     public bool uploading;
     public bool textFile;
+    public bool imageFile;
     public int desktopNumber;
     public string CodeName;
     public string FileName;
+    public Sprite Picture;
     public List<Dictionary<string, object>> DocumentsToPullFrom;
     Document doco;
 	// Use this for initialization
 	void Start () {
-        DocText = null;
+     /*   DocText = null;
         if (textFile) {
             if (desktopNumber == 2) {
                 DocumentsToPullFrom =  GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().dataOld;
@@ -61,7 +63,7 @@ public class Files : MonoBehaviour {
                     }
                 }
             }
-        }
+        }*/
         cam = GameObject.FindGameObjectWithTag("MainCamera");
         uploading = false;
         mouseOver = false;

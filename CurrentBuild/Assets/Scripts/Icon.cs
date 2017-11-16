@@ -15,9 +15,9 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
 	{
 		//Debug.Log ("Click Count = "+eventData.clickCount);
 		if(eventData.clickCount == 1){
-            if ( !go)
+            if (!go)
             {
-                switch(Desktop) {
+                switch (Desktop) {
                     case 3:
                         location = 0;
                         break;
@@ -35,10 +35,18 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
                         break;
 
                 }
-                go = Instantiate(window, new Vector3(xPos+1*40*location, yPos, -2), Quaternion.identity) as GameObject;
+                go = Instantiate(window, new Vector3(xPos + 1 * 40 * location, yPos, -2), Quaternion.identity) as GameObject;
                 go.transform.localScale = new Vector3(wid, hei, 1);
                 if (DesktopSwitcher) {
                     go.transform.GetChild(0).GetChild(Desktop).GetComponent<SpriteRenderer>().color = Color.red;
+                }
+                if (GetComponent<Files>().textFile == true)
+                {
+                    go.GetComponentInChildren<Text>().text = GetComponent<Files>().DocText;
+                }
+                else if (GetComponent<Files>().imageFile == true) {
+                    print("NO");
+                    go.GetComponentInChildren<SpriteRenderer>().sprite = GetComponent<Files>().Picture;
                 }
                 eventData.clickCount = 0;
             }

@@ -16,7 +16,7 @@ public class Master : MonoBehaviour {
 
     private void Awake()
     {
-        dataOld = CSVReader.Read("OldManFolders");
+    //    dataOld = CSVReader.Read("OldManFolders");
         //   dataJaz = CSVReader.Read("TechGuyFolders");
         //    dataJournalist = CSVReader.Read("JournalistFolders");
         //List<string> keyList = new List<string>(this.dataOld[1].Keys);
