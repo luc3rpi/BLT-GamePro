@@ -19,7 +19,7 @@ public class Decryption : MonoBehaviour {
 		for (int c = 0; c < characters.Length; c++) {
 			characters [c].col = Instantiate (column) as GameObject;
 			//characters [c].col.transform.parent = GameObject.FindWithTag ("Canvas").transform;
-			characters [c].col.transform.SetParent(GameObject.FindWithTag ("Canvas").transform);
+			characters [c].col.transform.SetParent(GameObject.FindWithTag("MainCanvas").transform);
 			characters [c].col.GetComponent<ColumnManager>().Place ((c*1.0f+.5f)/characters.Length);
 			characters [c].col.GetComponent<ColumnManager>().SetText (characters[c].strArray[0],characters[c].strArray[1],characters[c].strArray[2]);
 		}
