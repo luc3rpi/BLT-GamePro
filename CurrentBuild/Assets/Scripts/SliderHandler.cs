@@ -8,6 +8,8 @@ public class SliderHandler : MonoBehaviour {
 
     public Slider sl;
     public Image img;
+    public Image img2;
+    public Image img3;
     public AudioSource[] auso;
     bool on = false;
     public float up, down, left, right;
@@ -15,8 +17,12 @@ public class SliderHandler : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        sl.enabled = false;
+        img.enabled = false;
+        img2.enabled = false;
+        img3.enabled = false;
+        on = false;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,6 +36,8 @@ public class SliderHandler : MonoBehaviour {
     {
         sl.enabled = true;
         img.enabled = true;
+        img2.enabled = true;
+        img3.enabled = true;
         on = true;
     }
 
@@ -47,6 +55,8 @@ public class SliderHandler : MonoBehaviour {
         {
             sl.enabled = false;
             img.enabled = false;
+            img2.enabled = false;
+            img3.enabled = false;
             on = false;
         }
 
