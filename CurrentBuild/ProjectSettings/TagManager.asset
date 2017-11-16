@@ -15,6 +15,7 @@ TagManager:
   - StartButton3
   - Wallpaper4
   - StartButton4
+  - MainCanvas
   layers:
   - Default
   - TransparentFX
