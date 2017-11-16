@@ -50,8 +50,10 @@ public class Files : MonoBehaviour {
                 if (i.ContainsKey("Codename"))
                 {
                     {
+                        print(i["Codename"].ToString());
                         if ((i["Codename"].ToString() == CodeName))
                         {
+                            print("Partial success");
                             DocText = (string)i["Text in Documents"];
                             FileName = (string)i["Name of File"];
                             break;

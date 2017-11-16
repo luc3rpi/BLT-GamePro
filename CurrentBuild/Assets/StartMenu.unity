@@ -3185,9 +3185,9 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
-  textFile: 0
-  desktopNumber: 0
-  CodeName: 
+  textFile: 1
+  desktopNumber: 2
+  CodeName: Old Man_Error_Message_1
   FileName: 
 --- !u!61 &1340064194
 BoxCollider2D:
