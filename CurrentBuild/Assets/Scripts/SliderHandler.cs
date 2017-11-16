@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,7 +8,7 @@ public class SliderHandler : MonoBehaviour {
 
     public Slider sl;
     public Image img;
-    public AudioSource auso;
+    public AudioSource[] auso;
     bool on = false;
     public float up, down, left, right;
     float mosX, mosY;
@@ -35,10 +35,10 @@ public class SliderHandler : MonoBehaviour {
 
     public void VolumeChange(float s)
     {
-        auso.volume = s;
+        for(int c=0;c<auso.Length;c++)
+            auso[c].volume = s;
     }
-
-    //public void OnPointerDown(PointerEventData eventData)
+    
     public void Off()
     {
         mosX = Input.mousePosition.x / Screen.width;
