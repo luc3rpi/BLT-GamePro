@@ -93,8 +93,10 @@
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SaveLoad.cs" />
     <Compile Include="Assets\Scripts\SingleClick.cs" />
+    <Compile Include="Assets\Scripts\SliderHandler.cs" />
     <Compile Include="Assets\Scripts\StartButton.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
+    <Compile Include="Assets\Scripts\TimeDisplay.cs" />
     <Compile Include="Assets\Scripts\UploadFiles.cs" />
     <Compile Include="Assets\Scripts\Window.cs" />
   </ItemGroup>

@@ -37,16 +37,21 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
                 }
                 go = Instantiate(window, new Vector3(xPos + 1 * 40 * location, yPos, -2), Quaternion.identity) as GameObject;
                 go.transform.localScale = new Vector3(wid, hei, 1);
-                if (DesktopSwitcher) {
-                    go.transform.GetChild(0).GetChild(Desktop).GetComponent<SpriteRenderer>().color = Color.red;
-                }
-                if (GetComponent<Files>().textFile == true)
+                    if (DesktopSwitcher)
+                    {
+                        go.transform.GetChild(0).GetChild(Desktop).GetComponent<SpriteRenderer>().color = Color.red;
+                    }
+                if (GetComponent<Files>()!= null)
                 {
-                    go.GetComponentInChildren<Text>().text = GetComponent<Files>().DocText;
-                }
-                else if (GetComponent<Files>().imageFile == true) {
-                    print("NO");
-                    go.GetComponentInChildren<SpriteRenderer>().sprite = GetComponent<Files>().Picture;
+                    if (GetComponent<Files>().textFile == true)
+                    {
+                        go.GetComponentInChildren<Text>().text = GetComponent<Files>().DocText;
+                    }
+                    else if (GetComponent<Files>().imageFile == true)
+                    {
+                        //print("NO");
+                        go.GetComponentInChildren<SpriteRenderer>().sprite = GetComponent<Files>().Picture;
+                    }
                 }
                 eventData.clickCount = 0;
             }
