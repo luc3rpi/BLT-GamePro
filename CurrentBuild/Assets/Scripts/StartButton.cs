@@ -5,6 +5,7 @@ using UnityEngine;
 public class StartButton : MonoBehaviour {
     public bool startOpened;
     public GameObject StartMenu;
+    public int deskNum;
     // Use this for initialization
     private void Awake()
     {
@@ -22,7 +23,8 @@ public class StartButton : MonoBehaviour {
     {
         if (!startOpened)
         {
-            Instantiate(StartMenu);
+            StartMenu = Instantiate(StartMenu);
+            StartMenu.transform.position = new Vector3(StartMenu.transform.position.x +40*deskNum, StartMenu.transform.position.y, StartMenu.transform.position.z);
             startOpened = true;
         }
 

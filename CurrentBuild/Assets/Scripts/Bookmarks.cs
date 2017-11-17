@@ -23,8 +23,10 @@ public class Bookmarks : MonoBehaviour {
         foreach (GameObject j in baseFile) {
             Destroy(j.gameObject);
         }
+        int z = 0;
         foreach (Document i in fileBook) //Spawn each bookmarked file in folder Once I have folder size i can put them in right positions
         {
+            
             GameObject gb = Instantiate(file);
             gb.transform.parent = this.transform;
             gb.GetComponent<Files>().bookmarked = i.bookmarked;
@@ -34,7 +36,9 @@ public class Bookmarks : MonoBehaviour {
             gb.GetComponent<Files>().keyword2 = i.keyword2;
             gb.GetComponent<Files>().keyword3 = i.keyword3;
             gb.GetComponent<SpriteRenderer>().sprite = gb.GetComponent<Files>().thisSprite;
+            gb.transform.localPosition = new Vector3(-2 + z, 3, -2);
             baseFile.Add(gb);
+            z++;
         }
     }
 }

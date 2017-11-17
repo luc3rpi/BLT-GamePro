@@ -315,6 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startOpened: 0
   StartMenu: {fileID: 1240687924750430, guid: 5d5a5b145fb8ead4889c6984b46eaf7b, type: 2}
+  deskNum: 0
 --- !u!114 &114658034103866564
 MonoBehaviour:
   m_ObjectHideFlags: 1
