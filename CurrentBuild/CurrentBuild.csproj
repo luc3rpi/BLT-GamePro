@@ -81,14 +81,15 @@
     <Compile Include="Assets\Scripts\Bookmarks.cs" />
     <Compile Include="Assets\Scripts\ColumnManager.cs" />
     <Compile Include="Assets\Scripts\CSVReader.cs" />
+    <Compile Include="Assets\Scripts\CustomCSV.cs" />
     <Compile Include="Assets\Scripts\Decryption.cs" />
     <Compile Include="Assets\Scripts\Desktop.cs" />
     <Compile Include="Assets\Scripts\DesktopSwitch.cs" />
     <Compile Include="Assets\Scripts\EmailPopup.cs" />
+    <Compile Include="Assets\Scripts\fgCSVReader.cs" />
     <Compile Include="Assets\Scripts\Files.cs" />
     <Compile Include="Assets\Scripts\Icon.cs" />
     <Compile Include="Assets\Scripts\Master.cs" />
-    <Compile Include="Assets\Scripts\NoQuit.cs" />
     <Compile Include="Assets\Scripts\Options.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SaveLoad.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Scripts\SliderHandler.cs" />
     <Compile Include="Assets\Scripts\StartButton.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
+    <Compile Include="Assets\Scripts\TextFieldParserCSV.cs" />
     <Compile Include="Assets\Scripts\TimeDisplay.cs" />
     <Compile Include="Assets\Scripts\UploadFiles.cs" />
     <Compile Include="Assets\Scripts\Window.cs" />

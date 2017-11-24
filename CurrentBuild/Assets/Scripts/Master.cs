@@ -9,20 +9,27 @@ public class Master : MonoBehaviour {
     public int Earl;
     public int Ozzy;
     public int Journalist;
+    public TextAsset OldManInfo;
     //public TextAsset OldManFolders;
-    public List<Dictionary<string, object>> dataOld;
-    public List<Dictionary<string, object>> dataJournalist;
-    public List<Dictionary<string, object>> dataJaz;
+    public Dictionary<string, string[]> dataOld;
+    public Dictionary<string, ArrayList> dataJournalist;
+    public Dictionary<string, ArrayList> dataJaz;
 
     private void Awake()
     {
-    //    dataOld = CSVReader.Read("OldManFolders");
+        //    dataOld = CSVReader.Read("OldManFolders");
         //   dataJaz = CSVReader.Read("TechGuyFolders");
         //    dataJournalist = CSVReader.Read("JournalistFolders");
         //List<string> keyList = new List<string>(this.dataOld[1].Keys);
         //foreach (string i in keyList) {
-       //     print(i);
-     //   }
+        //     print(i);
+        //   }
+        dataOld = ToDict(OldManInfo);
+        foreach (string i in dataOld.Keys) {
+            print(i);
+            print(dataOld[i][1]);
+            print(dataOld[i][2]);
+        }
         fileBook = new List<Document>();
         desktops = new int[4];
         desktops[0] = Earl; desktops[1] = Ozzy; desktops[2] = Journalist; desktops[3] = MainComputer;
@@ -35,7 +42,54 @@ public class Master : MonoBehaviour {
 	void Update () {
 		
 	}
-    static int SortByKey(Dictionary<string, object> a, Dictionary<string, object> b) {
-        return a["Codename"].ToString().CompareTo(b["Codename"].ToString());
+        public Dictionary<string, string[]> ToDict(TextAsset asset)
+    {
+
+        string indexer = "";
+        bool inQuotes = false;
+        bool firstWord = true; ;
+        Dictionary<string, string[]> returner = new Dictionary<string, string[]>();
+        string file = asset.ToString();
+        string tempStore = "";
+        string[] a = new string[10];
+        int index = 0;
+        foreach (char i in file)
+        {
+            if (i == '\"')
+            {
+                inQuotes = !inQuotes;
+            }
+            else
+            {
+                if (!inQuotes && i == ',' && firstWord)
+                {
+                    indexer = tempStore;
+                    firstWord = false;
+                    index++;
+                    tempStore = "";
+                }
+                else if (!inQuotes && i == '\n' && !firstWord)
+                {
+                    a[index] = (tempStore);
+                    tempStore = "";
+                    firstWord = true;
+                    returner[indexer] = a;
+                    a = new string[10];
+                    index = 0; 
+                }
+                else if (!inQuotes && i == ',')
+                {
+                    a[index] = (tempStore);
+                    tempStore = "";
+                    index++;
+                }
+                else
+                {
+                    tempStore += i;
+                }
+
+            }
+        }
+        return returner;
     }
 }

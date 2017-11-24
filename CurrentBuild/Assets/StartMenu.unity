@@ -4978,6 +4978,7 @@ MonoBehaviour:
   Earl: 1
   Ozzy: 1
   Journalist: 1
+  OldManInfo: {fileID: 4900000, guid: 3d6a9bcb39d0c624f87c2f3d04584260, type: 3}
 --- !u!114 &1626163451
 MonoBehaviour:
   m_ObjectHideFlags: 0
