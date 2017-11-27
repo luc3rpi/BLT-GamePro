@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Files.cs" />
     <Compile Include="Assets\Scripts\Icon.cs" />
     <Compile Include="Assets\Scripts\Master.cs" />
+    <Compile Include="Assets\Scripts\NoQui.cs" />
     <Compile Include="Assets\Scripts\Options.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\SaveLoad.cs" />

@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4864012556323192}
   - component: {fileID: 212054543036810216}
+  - component: {fileID: 114125684744082304}
   m_Layer: 0
   m_Name: QuitScreen
   m_TagString: Untagged
@@ -36,8 +37,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4832225576492184}
   - component: {fileID: 212925800002636100}
+  - component: {fileID: 114376940614029098}
   - component: {fileID: 61423058226970108}
-  - component: {fileID: 114159029381825958}
   m_Layer: 0
   m_Name: No
   m_TagString: Untagged
@@ -54,7 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4493002843021756}
   - component: {fileID: 212735861057145224}
-  - component: {fileID: 114128959609021224}
+  - component: {fileID: 114516643553185766}
   - component: {fileID: 61563916371431528}
   m_Layer: 0
   m_Name: Yes
@@ -154,23 +155,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!114 &114128959609021224
+--- !u!114 &114125684744082304
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1627072686818904}
+  m_GameObject: {fileID: 1240687924750430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92975a00dbb9ee54c8e264ecd3950729, type: 3}
+  m_Script: {fileID: 11500000, guid: ac0a6b5de914e404abbe4475b2ca89f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114159029381825958
+--- !u!114 &114376940614029098
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1345071750138448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5ca932a4002b04a8dec9eaecb149cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114516643553185766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627072686818904}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92975a00dbb9ee54c8e264ecd3950729, type: 3}
