@@ -1,0 +1,14 @@
+Sort,Conditional,Text,Additional Comments
+dump_1,Uploading dump files,"""Agent, please take your job seriously.""",x
+dump_2,Uploading dump files,"""There's nothing in this agent. You might want to get your eyes checked.""",x
+dump_3,Uploading dump files,"""...You're not serious about this one, are you?""",x
+dump_4,Uploading dump files,"""You might want to take a look at these one more time.""",x
+dump_5,Uploading dump files,"""Check your findings before you send them off, please...""",x
+correct_1,Uploading correct files,"""Good work, you're on the right track.""",x
+correct_2,Uploading correct files,"""Yep, there's definitely something here.""",x
+correct_3,Uploading correct files,"""Let's see what you've found, agent.""",x
+correct_4,Uploading correct files,"""Looking good so far, agent.""",x
+correct_5,Uploading correct files,"""Great find! We'll get back to you as soon as we can.""",x
+correct_6,Uploading correct files,"""This is plenty of evidence. We can make a good case out of this. Good work, I'll email you with the findings.""",after submitting all correct files
+profile_req_1,Sending profile request,"""Thanks. We'll take a look into it. We'll e-mail you with the results.""",x
+profile_req_2,Sending profile request,"""Alright, we'll see if they raise any red flags and get back to you.""",x

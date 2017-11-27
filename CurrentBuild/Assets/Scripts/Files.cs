@@ -35,36 +35,27 @@ public class Files : MonoBehaviour {
     public string CodeName;
     public string FileName;
     public Sprite Picture;
-    public List<Dictionary<string, object>> DocumentsToPullFrom;
+    public Dictionary<string, string[]> DocumentsToPullFrom;
     Document doco;
 	// Use this for initialization
 	void Start () {
-     /*   DocText = null;
-        if (textFile) {
-            if (desktopNumber == 2) {
-                DocumentsToPullFrom =  GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Master>().dataOld;
-            }
-        }
-        if (desktopNumber == 2) //remove if when adding other documents
-        {
-            foreach (Dictionary<string, object> i in DocumentsToPullFrom)
-            {
-                if (i.ContainsKey("Codename"))
-                {
-                    {
-                        print(i["Codename"].ToString());
-                        if ((i["Codename"].ToString() == CodeName))
-                        {
-                            print("Partial success");
-                            DocText = (string)i["Text in Documents"];
-                            FileName = (string)i["Name of File"];
-                            break;
-                        }
-                    }
-                }
-            }
-        }*/
+        DocText = null;
         cam = GameObject.FindGameObjectWithTag("MainCamera");
+        if (textFile) {
+            if (desktopNumber == 2)
+            {
+                DocumentsToPullFrom = cam.GetComponent<Master>().dataOld;
+            }
+            else if (desktopNumber == 1)
+            {
+                DocumentsToPullFrom = cam.GetComponent<Master>().dataJaz;
+            }
+            else if (desktopNumber == 0) {
+                DocumentsToPullFrom = cam.GetComponent<Master>().dataJournalist;
+            }
+            DocText = DocumentsToPullFrom[CodeName][5];
+            FileName = DocumentsToPullFrom[CodeName][2];
+        }
         uploading = false;
         mouseOver = false;
         if (!(transform.parent.tag == "Bookmarks")) bookmarked = false;
