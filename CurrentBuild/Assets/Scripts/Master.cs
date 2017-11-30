@@ -29,11 +29,11 @@ public class Master : MonoBehaviour {
         dataOld = ToDict(OldManInfo);
         dataJaz = ToDict(TechGuyInfo);
         dataJournalist = ToDict(JournalistInfo);
-        /*foreach (string i in dataOld.Keys) {
+        foreach (string i in dataJournalist.Keys) {
             print(i);
-            print(dataOld[i][1]);
-            print(dataOld[i][2]);
-        }*/
+         //   print(dataOld[i][1]);
+        //    print(dataOld[i][2]);
+        }
         fileBook = new List<Document>();
         desktops = new int[4];
         desktops[0] = Earl; desktops[1] = Ozzy; desktops[2] = Journalist; desktops[3] = MainComputer;
@@ -55,7 +55,7 @@ public class Master : MonoBehaviour {
         Dictionary<string, string[]> returner = new Dictionary<string, string[]>();
         string file = asset.ToString();
         string tempStore = "";
-        string[] a = new string[10];
+        string[] a = new string[100];
         int index = 0;
         foreach (char i in file)
         {
@@ -78,7 +78,7 @@ public class Master : MonoBehaviour {
                     tempStore = "";
                     firstWord = true;
                     returner[indexer] = a;
-                    a = new string[10];
+                    a = new string[100];
                     index = 0; 
                 }
                 else if (!inQuotes && i == ',')
