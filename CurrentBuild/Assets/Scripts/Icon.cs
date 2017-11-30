@@ -10,7 +10,6 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
     public int Desktop;
     public int location;
     public bool DesktopSwitcher;
-
 	public void OnPointerUp (PointerEventData eventData) 
 	{
 		//Debug.Log ("Click Count = "+eventData.clickCount);
@@ -33,7 +32,6 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
                     default:
                         location = 0;
                         break;
-
                 }
                 go = Instantiate(window, new Vector3(xPos + 40 * location, yPos, -2), Quaternion.identity) as GameObject;
                 go.transform.localScale = new Vector3(wid, hei, 1);
@@ -48,7 +46,7 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
                 {
                     if (GetComponent<Files>().textFile == true)
                     {
-                        go.GetComponentInChildren<Text>().text = GetComponent<Files>().DocText;
+                        go.transform.Find("Canvas").transform.Find("Text").GetComponent<Text>().text = GetComponent<Files>().DocText;
                     }
                     else if (GetComponent<Files>().imageFile == true)
                     {
