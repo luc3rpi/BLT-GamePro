@@ -26,7 +26,6 @@ public class DecryptStart : MonoBehaviour, IPointerUpHandler {
             dec.pass = pass;
             dec.characters = chars;
             dec.enabled = true;
-            done = true;
         }
         else if (eventData.clickCount == 1)
         {
@@ -85,10 +84,10 @@ public class DecryptStart : MonoBehaviour, IPointerUpHandler {
 	
 	// Update is called once per frame
 	void Update () {
-        /*if (done && dec.enabled==false)
+        if (dec.enabled && dec.active==false)
         {
-            fls.enabled = true;
-        }*/
+            done = true;
+        }
 	}
 
 }

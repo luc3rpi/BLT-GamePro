@@ -8,17 +8,21 @@ public class Decryption : MonoBehaviour
     public string pass;
     public string current;
     public float delay;
-    public GameObject column;
+    public GameObject column,window;
     public bool active = true;
     public Text con;
     public MultiDimStr[] characters;
     string[] tempHold;
+    GameObject wind;
     //string[][] characters;
     // Use this for initialization
-    void Start()
+    void OnEnable()
     {
         active = true;
         tempHold = new string[characters[0].strArray.Length];
+        wind = Instantiate(window) as GameObject;
+        wind.transform.SetParent(GameObject.FindWithTag("MainCanvas").transform);
+        wind.transform.localPosition = new Vector3(0, 0, 0);
         for (int c = 0; c < characters.Length; c++)
         {
             characters[c].col = Instantiate(column) as GameObject;
@@ -32,6 +36,12 @@ public class Decryption : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (wind == null)
+        {
+            for (int c = 0; c < characters.Length; c++)
+                Destroy(characters[c].col.gameObject);
+            this.enabled = false;
+        }
         if (active && pass == current)
         {
             active = false;
@@ -44,8 +54,9 @@ public class Decryption : MonoBehaviour
         print("Test");
         for (int c = 0; c < characters.Length; c++)
             Destroy(characters[c].col.gameObject);
+        Destroy(wind);
         this.enabled = false;
-        con.text = "CONGRATULATIONS";
+        //con.text = "CONGRATULATIONS";
     }
 
     public void SendToCheck()
