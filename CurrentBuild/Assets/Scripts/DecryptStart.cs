@@ -23,6 +23,7 @@ public class DecryptStart : MonoBehaviour, IPointerUpHandler {
     {
         if (!done)
         {
+            dec.current = "";
             dec.pass = pass;
             dec.characters = chars;
             dec.enabled = true;
