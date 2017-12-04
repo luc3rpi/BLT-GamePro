@@ -108,6 +108,59 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &48832608
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4926121791128926, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114381396215425178, guid: 6bb9d4e71624cc845bb00751c343e565,
+        type: 2}
+      propertyPath: m_Text
+      value: '"Agent, We have a profile of someone we want you to check out. The name
+        is Earl Falkov, male, age 67. His search history raised a red flag. He was
+        trying to look up how to decrypt files. It could be nothing, but we want you
+        to look into him just to make sure. We''ve already sent his profile to your
+        Desktop Switcher. Bookmark files you find high priority by right clicking
+        on the files. We''ll take a look at them when you choose to upload them to
+        us. Q."'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &141309907
 GameObject:
   m_ObjectHideFlags: 0
@@ -6985,6 +7038,7 @@ MonoBehaviour:
   OldManInfo: {fileID: 4900000, guid: 3d6a9bcb39d0c624f87c2f3d04584260, type: 3}
   TechGuyInfo: {fileID: 4900000, guid: 691cabbe8405dd94ba362686ca1a028e, type: 3}
   JournalistInfo: {fileID: 4900000, guid: a04b0225925ea9b47819c06e8311eb1f, type: 3}
+  supers: {fileID: 0}
 --- !u!114 &1626163451
 MonoBehaviour:
   m_ObjectHideFlags: 0

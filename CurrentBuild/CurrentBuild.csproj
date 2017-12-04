@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\CSVReader.cs" />
     <Compile Include="Assets\Scripts\CustomCSV.cs" />
     <Compile Include="Assets\Scripts\Decryption.cs" />
+    <Compile Include="Assets\Scripts\DecryptStart.cs" />
     <Compile Include="Assets\Scripts\Desktop.cs" />
     <Compile Include="Assets\Scripts\DesktopSwitch.cs" />
     <Compile Include="Assets\Scripts\EmailPopup.cs" />

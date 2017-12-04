@@ -12,10 +12,12 @@ public class Master : MonoBehaviour {
     public TextAsset OldManInfo;
     public TextAsset TechGuyInfo;
     public TextAsset JournalistInfo;
+    public TextAsset supers;
     //public TextAsset OldManFolders;
     public Dictionary<string, string[]> dataOld;
     public Dictionary<string, string[]> dataJournalist;
     public Dictionary<string, string[]> dataJaz;
+    public Dictionary<string, string[]> SupervisorEmails;
 
     private void Awake()
     {
@@ -29,6 +31,7 @@ public class Master : MonoBehaviour {
         dataOld = ToDict(OldManInfo);
         dataJaz = ToDict(TechGuyInfo);
         dataJournalist = ToDict(JournalistInfo);
+        SupervisorEmails = ToDict(supers);
      //   foreach (string i in dataJournalist.Keys) {
        //     print(i);
          //   print(dataOld[i][1]);
