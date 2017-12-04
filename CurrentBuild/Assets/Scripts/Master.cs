@@ -29,11 +29,11 @@ public class Master : MonoBehaviour {
         dataOld = ToDict(OldManInfo);
         dataJaz = ToDict(TechGuyInfo);
         dataJournalist = ToDict(JournalistInfo);
-        foreach (string i in dataJournalist.Keys) {
-            print(i);
+     //   foreach (string i in dataJournalist.Keys) {
+       //     print(i);
          //   print(dataOld[i][1]);
         //    print(dataOld[i][2]);
-        }
+  //      }
         fileBook = new List<Document>();
         desktops = new int[4];
         desktops[0] = Earl; desktops[1] = Ozzy; desktops[2] = Journalist; desktops[3] = MainComputer;

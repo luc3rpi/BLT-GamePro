@@ -236,7 +236,7 @@ Transform:
   m_GameObject: {fileID: 1342897777903978}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.357, y: -0.21, z: 0}
-  m_LocalScale: {x: 5.2251616, y: 3.7463577, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 4732820519601290}
   m_RootOrder: 1
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
@@ -1288,7 +1288,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85780765188cbbb4b92a6bddde956002, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d6ec5a8ea9c9b442aa6624d4c89b36b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1634,7 +1634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.83, y: 2.66}
+  m_AnchoredPosition: {x: 4.64, y: 2.07}
   m_SizeDelta: {x: 3, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224120028886711790

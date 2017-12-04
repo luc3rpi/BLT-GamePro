@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114620015503646340}
   - component: {fileID: 222857819073111500}
   - component: {fileID: 114545329031084350}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Antuma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 114004467641777924}
   - component: {fileID: 222249717786464212}
   - component: {fileID: 114333891921564010}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Research
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4638567977709502}
   - component: {fileID: 212633315668027386}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 114446561560368768}
   - component: {fileID: 222160274831646776}
   - component: {fileID: 114317269686480528}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: article
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4415566623877302}
   - component: {fileID: 114103055748173330}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EncryptedFolderJaz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661634959897672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 1.0074825, y: -0.0368298, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224603022350653936}
@@ -185,7 +185,7 @@ Transform:
   m_GameObject: {fileID: 1602749714951350}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.357, y: -0.21, z: 0}
-  m_LocalScale: {x: 5.2251616, y: 3.7463577, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 4415566623877302}
   m_RootOrder: 1
@@ -469,13 +469,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
   hei: 1
   go: {fileID: 0}
-  Desktop: 0
+  Desktop: 1
   location: 1
   DesktopSwitcher: 0
 --- !u!114 &114446561560368768
@@ -573,13 +573,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
   hei: 1
   go: {fileID: 0}
-  Desktop: 0
+  Desktop: 1
   location: 1
   DesktopSwitcher: 0
 --- !u!114 &114620015503646340
@@ -761,13 +761,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6e7bd5aad23ef4089109fd0ca5762e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
+  window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
   yPos: 0
   wid: 1
   hei: 1
   go: {fileID: 0}
-  Desktop: 0
+  Desktop: 1
   location: 1
   DesktopSwitcher: 0
 --- !u!212 &212171966133368156
@@ -886,7 +886,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85780765188cbbb4b92a6bddde956002, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d6ec5a8ea9c9b442aa6624d4c89b36b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1004,7 +1004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.83, y: 2.66}
+  m_AnchoredPosition: {x: 4.52, y: 2.01}
   m_SizeDelta: {x: 3, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224035800831893252
