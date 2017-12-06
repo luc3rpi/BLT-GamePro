@@ -158,6 +158,12 @@ Prefab:
         on the files. We''ll take a look at them when you choose to upload them to
         us. Q."'
       objectReference: {fileID: 0}
+    - target: {fileID: 114381396215425178, guid: 6bb9d4e71624cc845bb00751c343e565,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4389f5cfcba133e4b87be4569755f4b5,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   m_IsPrefabParent: 0
@@ -2661,7 +2667,7 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 0
-  desktopNumber: 0
+  desktopNumber: 1
   CodeName: 
   FileName: 
   Picture: {fileID: 0}
@@ -3710,7 +3716,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Trash
   Picture: {fileID: 0}
 --- !u!61 &990017485
 BoxCollider2D:
@@ -4006,7 +4012,7 @@ MonoBehaviour:
   wid: 1
   hei: 1
   go: {fileID: 0}
-  Desktop: 0
+  Desktop: 1
   location: 0
   DesktopSwitcher: 0
 --- !u!114 &1075924883
@@ -4140,7 +4146,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Email
   Picture: {fileID: 0}
 --- !u!61 &1119913830
 BoxCollider2D:
@@ -4626,7 +4632,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Internet_History
   Picture: {fileID: 0}
 --- !u!61 &1285663908
 BoxCollider2D:
@@ -5355,6 +5361,12 @@ Prefab:
       propertyPath: m_Size.y
       value: 1.572217
       objectReference: {fileID: 0}
+    - target: {fileID: 212438259300588066, guid: 2407a5ce1bcd89a4185d7d7b8179b722,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5fcb553150ec30a4985994bbae172881,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 114761483636098260, guid: 2407a5ce1bcd89a4185d7d7b8179b722, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 2407a5ce1bcd89a4185d7d7b8179b722, type: 2}
@@ -5385,7 +5397,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 1.88}
+    oldSize: {x: 2.68, y: 0.91}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6301,7 +6313,7 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 0
-  desktopNumber: 0
+  desktopNumber: 1
   CodeName: 
   FileName: 
   Picture: {fileID: 0}
@@ -8854,9 +8866,9 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 0
-  desktopNumber: 0
+  desktopNumber: 1
   CodeName: 
-  FileName: 
+  FileName: Trash
   Picture: {fileID: 0}
 --- !u!61 &2098649334
 BoxCollider2D:
