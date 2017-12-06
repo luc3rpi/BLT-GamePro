@@ -31,11 +31,13 @@ public class Files : MonoBehaviour {
     public string DocText;
     public bool uploadMode;
     public bool uploading;
+    public bool email;
     public bool textFile;
     public bool imageFile;
     public int desktopNumber;
     public string CodeName;
     public string FileName;
+    public string Entry;
     public Sprite Picture;
     public Dictionary<string, string[]> DocumentsToPullFrom;
     Document doco;
@@ -61,6 +63,7 @@ public class Files : MonoBehaviour {
         {
             DocText = DocumentsToPullFrom[CodeName][5];
             FileName = DocumentsToPullFrom[CodeName][2];
+            Entry = DocumentsToPullFrom[CodeName][4];
         }
             GameObject UnderText = Instantiate(UnderText1);
             UnderText.transform.parent = this.transform;

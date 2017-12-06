@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Desktop.cs" />
     <Compile Include="Assets\Scripts\DesktopSwitch.cs" />
     <Compile Include="Assets\Scripts\EmailPopup.cs" />
+    <Compile Include="Assets\Scripts\EmailsAndTwitter.cs" />
     <Compile Include="Assets\Scripts\fgCSVReader.cs" />
     <Compile Include="Assets\Scripts\Files.cs" />
     <Compile Include="Assets\Scripts\Icon.cs" />
