@@ -286,6 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -298,8 +299,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_5
   FileName: 
   Picture: {fileID: 21300000, guid: a39ef4473f2f36f468c37e940a2852e2, type: 3}
 --- !u!114 &141309913
@@ -581,6 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -888,6 +890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -900,8 +903,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_8
   FileName: 
   Picture: {fileID: 21300000, guid: ffb9ef26ec7685947ad015bf2ddfc3d4, type: 3}
 --- !u!114 &220993902
@@ -1116,6 +1119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -1391,6 +1395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -1405,7 +1410,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Bookmarks
   Picture: {fileID: 0}
 --- !u!61 &422044789
 BoxCollider2D:
@@ -1878,6 +1883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -1890,8 +1896,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_3
   FileName: 
   Picture: {fileID: 21300000, guid: e019e52442a11624ba395b00ebfe1b93, type: 3}
 --- !u!114 &514026488
@@ -2106,6 +2112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -2118,8 +2125,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Pet_Photo_3
   FileName: 
   Picture: {fileID: 21300000, guid: 98390a590068a5949a79b7bad3865e92, type: 3}
 --- !u!114 &559709824
@@ -2495,6 +2502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -2507,8 +2515,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Pet_Photo_1
   FileName: 
   Picture: {fileID: 21300000, guid: 48f8e639a9771f949bf82e2a4624d4fc, type: 3}
 --- !u!114 &616821862
@@ -2640,6 +2648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -2848,6 +2857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -2860,8 +2870,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_1
   FileName: 
   Picture: {fileID: 21300000, guid: 8a7b03221a082894eb2236fe5d0f5cdc, type: 3}
 --- !u!114 &712166467
@@ -3076,6 +3086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -3088,8 +3099,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Pet_Photo_2
   FileName: 
   Picture: {fileID: 21300000, guid: a044b79506a200e46b2cfcbde487aa3c, type: 3}
 --- !u!114 &713712495
@@ -3309,6 +3320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -3321,8 +3333,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_4
   FileName: 
   Picture: {fileID: 21300000, guid: 89ee3fb1a9a9d38488f24a903d7d5c0c, type: 3}
 --- !u!114 &851113257
@@ -3550,6 +3562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -3564,7 +3577,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Desktop_Switcher
   Picture: {fileID: 0}
 --- !u!114 &885257590
 MonoBehaviour:
@@ -3682,6 +3695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -3891,6 +3905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -4110,6 +4125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -4393,6 +4409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -4594,6 +4611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -4802,6 +4820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -4814,8 +4833,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_10
   FileName: 
   Picture: {fileID: 21300000, guid: b46e5d3226b350c49a723df29e83124f, type: 3}
 --- !u!114 &1293275225
@@ -4956,6 +4975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -5552,6 +5572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -5566,7 +5587,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Desktop_Switcher
   Picture: {fileID: 0}
 --- !u!114 &1406500661
 MonoBehaviour:
@@ -5706,6 +5727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -6140,6 +6162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -6154,7 +6177,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Internet_History
   Picture: {fileID: 0}
 --- !u!61 &1498686507
 BoxCollider2D:
@@ -6265,6 +6288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -6390,6 +6414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -6404,7 +6429,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: 
+  FileName: Emails
   Picture: {fileID: 0}
 --- !u!61 &1539837307
 BoxCollider2D:
@@ -6544,6 +6569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -6826,6 +6852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -6838,8 +6865,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_5
   FileName: 
   Picture: {fileID: 21300000, guid: 0187406c040d5c846a1c490b93bdb3d9, type: 3}
 --- !u!114 &1605386474
@@ -7179,6 +7206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -7407,6 +7435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -7419,8 +7448,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_7
   FileName: 
   Picture: {fileID: 21300000, guid: 6e4de85bfc44f3f408fe8d3b298efcc3, type: 3}
 --- !u!114 &1805182401
@@ -7812,6 +7841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -8198,6 +8228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -8210,8 +8241,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_2
   FileName: 
   Picture: {fileID: 21300000, guid: 6a5ec852c8fe4ca489cb8d9818a43374, type: 3}
 --- !u!114 &1998067040
@@ -8426,6 +8457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -8438,8 +8470,8 @@ MonoBehaviour:
   uploading: 0
   textFile: 0
   imageFile: 1
-  desktopNumber: 0
-  CodeName: 
+  desktopNumber: 2
+  CodeName: Old Man_Family_Photo_9
   FileName: 
   Picture: {fileID: 21300000, guid: 2621626aebfe39f48af09c9d7a20c95b, type: 3}
 --- !u!114 &2040907213
@@ -8809,6 +8841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -8906,6 +8939,7 @@ GameObject:
   - component: {fileID: 2102137081}
   - component: {fileID: 2102137080}
   - component: {fileID: 2102137079}
+  - component: {fileID: 2102137075}
   m_Layer: 0
   m_Name: TrashIcon (1)
   m_TagString: Untagged
@@ -8931,6 +8965,34 @@ RectTransform:
   m_AnchoredPosition: {x: 15.05, y: -5.06}
   m_SizeDelta: {x: 0.64, y: 0.64}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2102137075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102137073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
+  cam: {fileID: 0}
+  bookmarked: 0
+  thisSprite: {fileID: 0}
+  mouseOver: 0
+  keyword1: 
+  keyword2: 
+  keyword3: 
+  DocText: 
+  uploadMode: 0
+  uploading: 0
+  textFile: 0
+  imageFile: 0
+  desktopNumber: 0
+  CodeName: 
+  FileName: Trash
+  Picture: {fileID: 0}
 --- !u!61 &2102137076
 BoxCollider2D:
   m_ObjectHideFlags: 0
