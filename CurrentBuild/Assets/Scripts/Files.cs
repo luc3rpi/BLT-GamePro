@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Document //class to store files
 {
@@ -19,6 +20,7 @@ public class Document //class to store files
 }
 public class Files : MonoBehaviour {
 
+    public GameObject UnderText1;
     public GameObject cam;
     public bool bookmarked;
     public Sprite thisSprite;
@@ -40,8 +42,10 @@ public class Files : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         DocText = null;
+        UnderText1 = (GameObject)Resources.Load("TextBox");
+
         cam = GameObject.FindGameObjectWithTag("MainCamera");
-        if (textFile) {
+
             if (desktopNumber == 2)
             {
                 DocumentsToPullFrom = cam.GetComponent<Master>().dataOld;
@@ -53,9 +57,16 @@ public class Files : MonoBehaviour {
             else if (desktopNumber == 0) {
                 DocumentsToPullFrom = cam.GetComponent<Master>().dataJournalist;
             }
+        if (CodeName != "")
+        {
             DocText = DocumentsToPullFrom[CodeName][5];
             FileName = DocumentsToPullFrom[CodeName][2];
         }
+            GameObject UnderText = Instantiate(UnderText1);
+            UnderText.transform.parent = this.transform;
+            UnderText.transform.localPosition = new Vector3(0, 0, 0);
+           // UnderText.transform.localScale = new Vector3(1, 1, 1);
+            UnderText.GetComponentInChildren<Text>().text = FileName;
         uploading = false;
         mouseOver = false;
         if (!(transform.parent.tag == "Bookmarks")) bookmarked = false;
