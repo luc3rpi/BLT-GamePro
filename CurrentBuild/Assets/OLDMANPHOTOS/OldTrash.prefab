@@ -125,7 +125,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1331991928339662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.039242, y: -10.627008, z: -10}
+  m_LocalPosition: {x: 125.23825, y: 13.596275, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224455741008610610}
@@ -255,29 +255,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e5d2864c10f1245b7212b40ddf0450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pass: test
+  pass: CONSPIRACY
   tg: MainCanvas
   dec: {fileID: 0}
   chars:
   - strArray:
-    - a
-    - f
-    - t
+    - S
+    - D
+    - C
     col: {fileID: 0}
   - strArray:
-    - d
-    - e
-    - f
+    - A
+    - O
+    - R
     col: {fileID: 0}
   - strArray:
-    - s
-    - t
-    - d
+    - N
+    - V
+    - D
     col: {fileID: 0}
   - strArray:
-    - h
-    - i
-    - t
+    - P
+    - I
+    - S
+    col: {fileID: 0}
+  - strArray:
+    - H
+    - P
+    - T
+    col: {fileID: 0}
+  - strArray:
+    - I
+    - V
+    - T
+    col: {fileID: 0}
+  - strArray:
+    - C
+    - R
+    - B
+    col: {fileID: 0}
+  - strArray:
+    - D
+    - A
+    - F
+    col: {fileID: 0}
+  - strArray:
+    - C
+    - X
+    - T
+    col: {fileID: 0}
+  - strArray:
+    - S
+    - D
+    - Y
     col: {fileID: 0}
   window: {fileID: 1165577161352846, guid: 6bb9d4e71624cc845bb00751c343e565, type: 2}
   xPos: 0
@@ -443,6 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -453,11 +484,13 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  email: 0
   textFile: 1
   imageFile: 0
   desktopNumber: 2
   CodeName: Old Man_Encrypted_Document_1
   FileName: Old Man_Encrypted_Document_1
+  Entry: 
   Picture: {fileID: 0}
 --- !u!114 &114844930662416242
 MonoBehaviour:
