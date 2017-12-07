@@ -73,6 +73,7 @@ public class Files : MonoBehaviour {
         uploading = false;
         mouseOver = false;
         if (!(transform.parent.tag == "Bookmarks")) bookmarked = false;
+     //   if (gameObject.GetComponent<SpriteRenderer>().sprite != null)
         thisSprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         uploadMode = false;
         doco = new Document(bookmarked, thisSprite, keyword1, keyword2, keyword3, DocText);

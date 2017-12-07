@@ -16,6 +16,7 @@ TagManager:
   - Wallpaper4
   - StartButton4
   - MainCanvas
+  - Bank
   layers:
   - Default
   - TransparentFX

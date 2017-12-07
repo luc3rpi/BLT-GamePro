@@ -12,6 +12,7 @@ public class WordBank : MonoBehaviour {
     public string[] entries;
 	// Use this for initialization
 	void Start () {
+        txt = GetComponent<Text>();
         entries = new string[11];
         currentPos = 0;
         submit = false;
@@ -22,18 +23,21 @@ public class WordBank : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        applied = entries[0] + " is a " + entries[1] + " who has been looking into the " + entries[2] + " of " + entries[3] + ". " +  entries[0] + " has " + entries[4] + "connecting " +
+
+        applied = entries[0] + " is a " + entries[1] + " who has been looking into the " + entries[2] + " of " + entries[3] + ". " +  entries[0] + " has " + entries[4] + " connecting " +
             entries[5] + " to the " + entries[2] +". " + entries[6] + ", a " + entries[7] +", " + entries[8] + entries[0]+" about the " + entries[9] +". If people believe this, there will be panic among our citizens. " + entries[0] + " will be brought in for questioning immediately. With " + entries[10] +" silenced we’ll be able to preserve the peace of the nation.";
+        if (!submit)
         txt.text = applied;
 
 	}
     public void AddString(string str) {
+        if (currentPos<11)
         entries[currentPos] = str;
         currentPos++;
-        if (currentPos == 10) {
+        if (currentPos == 11) {
             currentPos = 0;
             submit = true;
-            if (entries[0] == "Oswald Porter")
+            if (entries[0] == "Oswald Porter" && entries[2] == "assassination" && entries[3] == "Charlotte Nikolaev" && entries[5] == "Fyfe Antuma")
             {
                 txt.text = "A day before his trial, Oswald was found hanging in his cell and the coroner ruled his death as a suicide.Although it was declared as a suicide, there were signs of struggle in his cell and defensive wounds were recorded in the official autopsy report. Without someone spearheading the spread of the conspiracy, the theory’s presence in the media has faded.";
             }

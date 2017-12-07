@@ -104,6 +104,7 @@
     <Compile Include="Assets\Scripts\UploadFiles.cs" />
     <Compile Include="Assets\Scripts\Window.cs" />
     <Compile Include="Assets\Scripts\WordBank.cs" />
+    <Compile Include="Assets\Scripts\WordBankOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Interview with Tech Guy.txt" />
