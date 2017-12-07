@@ -3847,7 +3847,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 0
   CodeName: 
-  FileName: Trash
+  FileName: Trash (empty)
   Entry: 
   Picture: {fileID: 0}
 --- !u!61 &990017485
@@ -4679,8 +4679,8 @@ MonoBehaviour:
   window: {fileID: 1276474538086746, guid: 39da4717e2235604f9dfedc488fc0c53, type: 2}
   xPos: 0
   yPos: 0
-  wid: 1
-  hei: 1
+  wid: 0.8
+  hei: 0.8
   go: {fileID: 0}
   Desktop: 0
   location: 0
@@ -5734,8 +5734,8 @@ MonoBehaviour:
   window: {fileID: 1589164565280440, guid: f202991512e94b6449ac6cad6fc1f297, type: 2}
   xPos: 0
   yPos: 0
-  wid: 1
-  hei: 1
+  wid: 0.8
+  hei: 0.8
   go: {fileID: 0}
   Desktop: 0
   location: 0
@@ -7006,7 +7006,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 1
   CodeName: 
-  FileName: 
+  FileName: Internet_History (Empty)
   Entry: 
   Picture: {fileID: 0}
 --- !u!61 &1533561079
@@ -7605,8 +7605,8 @@ MonoBehaviour:
   window: {fileID: 1649922630350080, guid: 284cc1701dd101a4aa5d897a0a38481f, type: 2}
   xPos: 0
   yPos: 0
-  wid: 1
-  hei: 1
+  wid: 0.8
+  hei: 0.8
   go: {fileID: 0}
   Desktop: 0
   location: 0
@@ -9937,7 +9937,7 @@ MonoBehaviour:
   imageFile: 0
   desktopNumber: 1
   CodeName: 
-  FileName: Trash
+  FileName: Trash (Empty)
   Entry: 
   Picture: {fileID: 0}
 --- !u!61 &2098649334
