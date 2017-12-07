@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\TimeDisplay.cs" />
     <Compile Include="Assets\Scripts\UploadFiles.cs" />
     <Compile Include="Assets\Scripts\Window.cs" />
+    <Compile Include="Assets\Scripts\WordBank.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Interview with Tech Guy.txt" />
