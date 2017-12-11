@@ -14,7 +14,7 @@ public class Icon : MonoBehaviour, IPointerUpHandler {
 	{
 		//Debug.Log ("Click Count = "+eventData.clickCount);
 		if(eventData.clickCount == 1){
-            if (!Input.GetMouseButtonDown(1))
+            if (!Input.GetMouseButtonUp(1))
             {
                 if (!go)
                 {
