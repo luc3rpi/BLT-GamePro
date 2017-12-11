@@ -11,11 +11,13 @@ public class Document //class to store files
     public string keyword2;
     public string keyword3;
     public string DocText;
+    public string Codename;
+    public int desktopNum;
     public bool uploadMode = false;
-    public Document(bool bm, Sprite sp, string kw1, string kw2, string kw3, string dt)
+    public Document(bool bm, Sprite sp, string kw1, string kw2, string kw3, string dt, string cn,int deskn)
     {
         bookmarked = bm; thisSprite = sp; keyword1 = kw1;
-        keyword2 = kw2; keyword3 = kw3; DocText = dt;
+        keyword2 = kw2; keyword3 = kw3; DocText = dt; Codename = cn; desktopNum = deskn;
     }
 }
 public class Files : MonoBehaviour {
@@ -42,7 +44,7 @@ public class Files : MonoBehaviour {
     public Dictionary<string, string[]> DocumentsToPullFrom;
     Document doco;
 	// Use this for initialization
-	void Start () {
+	public void Start () {
         DocText = null;
         UnderText1 = (GameObject)Resources.Load("TextBox");
 
@@ -76,7 +78,7 @@ public class Files : MonoBehaviour {
      //   if (gameObject.GetComponent<SpriteRenderer>().sprite != null)
         thisSprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         uploadMode = false;
-        doco = new Document(bookmarked, thisSprite, keyword1, keyword2, keyword3, DocText);
+        doco = new Document(bookmarked, thisSprite, keyword1, keyword2, keyword3, DocText, CodeName, desktopNumber);
     }
 	
 	// Update is called once per frame

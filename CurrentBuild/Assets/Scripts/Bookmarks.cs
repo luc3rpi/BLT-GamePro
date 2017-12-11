@@ -28,7 +28,11 @@ public class Bookmarks : MonoBehaviour {
         {
             
             GameObject gb = Instantiate(file);
-            gb.transform.parent = this.transform;
+            gb.transform.SetParent(GameObject.Find("Canvas33").transform);
+            gb.GetComponent<Files>().desktopNumber = i.desktopNum;
+            gb.GetComponent<Files>().CodeName = i.Codename;
+            gb.GetComponent<Icon>().Desktop = 3;
+            gb.GetComponent<Files>().Start();
             gb.GetComponent<Files>().bookmarked = i.bookmarked;
             gb.GetComponent<Files>().DocText = i.DocText;
             gb.GetComponent<Files>().thisSprite = i.thisSprite;
@@ -36,7 +40,7 @@ public class Bookmarks : MonoBehaviour {
             gb.GetComponent<Files>().keyword2 = i.keyword2;
             gb.GetComponent<Files>().keyword3 = i.keyword3;
             gb.GetComponent<SpriteRenderer>().sprite = gb.GetComponent<Files>().thisSprite;
-            gb.transform.localPosition = new Vector3(-2 + z, 3, -2);
+            gb.transform.localPosition = new Vector3(-3 + z, 0, -2);
             baseFile.Add(gb);
             z++;
         }

@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 222747331676171634}
   - component: {fileID: 114106021042039462}
   m_Layer: 5
-  m_Name: Grocery
+  m_Name: Bookmarks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -323,6 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -333,11 +334,13 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  email: 0
   textFile: 1
   imageFile: 0
   desktopNumber: 1
   CodeName: Tech_Guy_NonEncrypted_File_5
   FileName: 
+  Entry: 
   Picture: {fileID: 0}
 --- !u!114 &114209649265448782
 MonoBehaviour:
@@ -350,6 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -360,11 +364,13 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  email: 0
   textFile: 1
   imageFile: 0
   desktopNumber: 1
   CodeName: Tech_Guy_NonEncrypted_File_3
   FileName: 
+  Entry: 
   Picture: {fileID: 0}
 --- !u!114 &114277738423015292
 MonoBehaviour:
@@ -754,6 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7138e48634966b0448819b32b13222e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnderText1: {fileID: 0}
   cam: {fileID: 0}
   bookmarked: 0
   thisSprite: {fileID: 0}
@@ -764,11 +771,13 @@ MonoBehaviour:
   DocText: 
   uploadMode: 0
   uploading: 0
+  email: 0
   textFile: 1
   imageFile: 0
   desktopNumber: 1
   CodeName: Tech_Guy_Encrypted_File_2
   FileName: 
+  Entry: 
   Picture: {fileID: 0}
 --- !u!212 &212048728454961344
 SpriteRenderer:
