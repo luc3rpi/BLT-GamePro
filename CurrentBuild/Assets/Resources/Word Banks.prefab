@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: her
   found: 1
 --- !u!114 &114028220672825098
 MonoBehaviour:
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: robbery
   found: 1
 --- !u!114 &114043840335914246
 MonoBehaviour:
@@ -987,7 +987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: Supervisor
   found: 1
 --- !u!114 &114050082422514176
 MonoBehaviour:
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: Fyfe Antuma
   found: 1
 --- !u!114 &114052132830836390
 MonoBehaviour:
@@ -1162,7 +1162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: collected evidence
   found: 1
 --- !u!114 &114090694794483926
 MonoBehaviour:
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: scared
   found: 1
 --- !u!114 &114099239534776906
 MonoBehaviour:
@@ -1332,7 +1332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: assassination
   found: 1
 --- !u!114 &114144440407994398
 MonoBehaviour:
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: him
   found: 1
 --- !u!114 &114146698270419368
 MonoBehaviour:
@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: conspiracy theorist
   found: 1
 --- !u!114 &114177106739581974
 MonoBehaviour:
@@ -1718,7 +1718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: Tamara Glass
   found: 1
 --- !u!114 &114320524311105490
 MonoBehaviour:
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: Sam Gould
   found: 1
 --- !u!114 &114403498998433828
 MonoBehaviour:
@@ -2058,7 +2058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: musician
   found: 1
 --- !u!114 &114445503240938558
 MonoBehaviour:
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: Earl Falkov
   found: 1
 --- !u!114 &114570759970207482
 MonoBehaviour:
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: Charlotte Nikolaev
   found: 1
 --- !u!114 &114666160685609082
 MonoBehaviour:
@@ -2613,7 +2613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: attacked
   found: 1
 --- !u!114 &114768244969393192
 MonoBehaviour:
@@ -2802,7 +2802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: interviewed
   found: 1
 --- !u!114 &114820557346665744
 MonoBehaviour:
@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: practiced
   found: 1
 --- !u!114 &114884327752588188
 MonoBehaviour:
@@ -3081,7 +3081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: journalist
   found: 1
 --- !u!114 &114908336335610888
 MonoBehaviour:
@@ -3095,7 +3095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: Sam Gould
-  str2: Oswald Porter
+  str2: conspiracy
   found: 1
 --- !u!114 &114926254432628388
 MonoBehaviour:
